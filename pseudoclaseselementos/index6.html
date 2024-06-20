@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:hover{
+            text-decoration: none;
+        }
+        button:hover{
+            background-color: aquamarine;
+
+        }
+        input[type=text]:focus{
+            outline-color: red;
+            border-radius: 10px;
+            padding-left: 20px;
+        }
+        li:nth-child(odd){
+            background-color: red;
+        }
+        li:nth-child(even){
+            background-color: rgb(43, 255, 0);
+        }
+        li:last-child{
+            background-color: yellow;
+        }
+        p::before{
+            content: "Inicio:  😎";
+            font-weight: bold;
+        }
+        p::after{
+            content: "Fin:  ✨";
+            font-weight: bold;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <!-- hover focus nth-child(n) -->
+     <h1>Ejemplos de Psequdoelementos y Pseudoclases</h1>
+     <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores debitis veniam odio, accusantium dignissimos quibusdam sed adipisci. Esse necessitatibus asperiores, et, numquam labore blanditiis delectus, quam consequatur eius quos ratione?</p>
+<p>Otro parraafo con un <a href="#">enlace</a></p>
+<ul>
+    <li>Elmento 1</li>
+    <li>Elmento 2</li>
+    <li>Elmento 3</li>
+    <li>Elmento 4</li>
+    <li>Elmento 5</li>
+</ul>
+<form >
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" placeholder="Juana"> <br><br>
+    <label for="nombre">Email:</label>
+    <input type="email" id="nombre" placeholder="Juana@gmail.com"> <br><br>
+    <button type="submit">Enviar</button>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, quisquam praesentium! Totam quidem autem minus tempore recusandae, quasi odit sapiente perferendis, molestiae nobis molestias. Quas ut natus praesentium nemo voluptatum.</p>
+</form>
+</body>
+</html>
